@@ -1,0 +1,77 @@
+home@DESKTOP-R9KFLP2 MINGW64 ~/Desktop/Test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        results.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+__________________________________________________________________________________
+home@DESKTOP-R9KFLP2 MINGW64 ~/Desktop/Test (main)
+$ git branch
+* main
+  new-branch
+____________________________________________________________________________________
+home@DESKTOP-R9KFLP2 MINGW64 ~/Desktop/Test (main)
+$ git log
+commit 5be3b8e0143361a9e87e212c312b5e5af2397c98 (HEAD -> main, origin/main, origin/HEAD)
+Author: Victoriia <vika953452@gmail.com>
+Date:   Sat Jan 31 13:51:01 2026 +0200
+
+    Create txt
+
+commit 827a75fabd18c97fc50bfeb8abf43f38495a300a
+Merge: 99f28dd 50c15bf
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:39:34 2026 +0200
+
+    Додано зміни після об'єднання гілок
+
+commit 99f28dd138ef8612fb44569f46639f51232d3546
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:36:14 2026 +0200
+
+    Змінено файл index.html у головній гілці
+
+commit 50c15bf718dcc28a0ea5863432e31c07e3dd23aa (origin/new-branch, new-branch)
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:31:21 2026 +0200
+
+    Змінено текст в index.html
+
+commit 66f5309fddb0771ffd1fad7c891ded3e8244069f
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:29:35 2026 +0200
+
+    Додано ще зміни в index.html
+
+commit 777afde5db5d168a118c6b97dc282b6487243154
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:28:07 2026 +0200
+
+    Додано зміни в index.html
+
+commit 892c648d4e443af7a91672e556d350e7e9231c7c
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:24:07 2026 +0200
+
+    Додано новий файл index.html
+
+commit 802641733520aa131eafedb1633fc5e6a9f33a8c
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:17:39 2026 +0200
+
+    first commit
+
+home@DESKTOP-R9KFLP2 MINGW64 ~/Desktop/Test (main)
+$ git log --merges
+commit 827a75fabd18c97fc50bfeb8abf43f38495a300a
+Merge: 99f28dd 50c15bf
+Author: Viktoriia Hopko <vika953452@gmail.com>
+Date:   Sat Jan 31 13:39:34 2026 +0200
+
+    Додано зміни після об'єднання гілок
+
+_______________________________________________________________________________________
